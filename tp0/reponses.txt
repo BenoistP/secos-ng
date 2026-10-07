@@ -31,3 +31,4 @@ struct multiboot_header
 
 Q2)
 
+Q4) Le controlleur ne renvoie pas d'erreur d'écriture/lecture en dehors de la zone valide

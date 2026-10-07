@@ -38,7 +38,7 @@ void tp() {
    int *ptr_out_of_mem;
    ptr_out_of_mem = (int*)0xffffffffff;
    debug("Out of mem (at: 0xffffffffff):  before: 0x%x ", *ptr_out_of_mem); // read
-   *ptr_out_of_mem = 0x0;
+   *ptr_out_of_mem = 0xff;
    debug("after: 0x%x\n", *ptr_out_of_mem);                // check
 
 
