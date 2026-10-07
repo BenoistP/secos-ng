@@ -58,7 +58,7 @@ void tp() {
   debug("dseg = %x", dseg);
 
   uint16_t cseg = get_seg_sel(cs);
-  debug(cseg);
+  debug("cseg = %x", cseg);
 
   debug("----------------------\n");
 
