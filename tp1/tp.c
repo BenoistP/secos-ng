@@ -42,7 +42,7 @@ void tp() {
   get_gdtr(gdt);
   print_gdt_content( gdt );
 
-  debug("----------------------\n");
+  debug("================================\n");
 
 
   /*
@@ -55,26 +55,24 @@ void tp() {
 */
 
   uint16_t dseg = get_ds();
-  debug("dseg = %x", dseg);
+  debug("dseg = %x\n", dseg);
+  debug("----------------------\n");
 
   uint16_t cseg = get_seg_sel(cs);
-  debug("cseg = %x", cseg);
-
+  debug("cseg = %x\n", cseg);
   debug("----------------------\n");
 
   uint16_t sseg = get_ss();
-  debug("sseg = %x", sseg);
-
+  debug("sseg = %x\n", sseg);
   debug("----------------------\n");
 
   uint16_t eseg = get_es();
-  debug("eseg = %x", eseg);
-
+  debug("eseg = %x\n", eseg);
   debug("----------------------\n");
 
   uint16_t fseg = get_fs();
-  debug("fseg = %x", fseg);
+  debug("fseg = %x\n", fseg);
 
-  debug("----------------------\n");
+  debug("================================\n");
 
 }
