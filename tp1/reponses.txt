@@ -9,3 +9,44 @@ Code 	Mnemonic 	Description
 
 
 2)
+tp
+
+3)
+tp
+
+
+0 [0x0 - 0xfff0] seg_t: 0x0 desc_t: 0 priv: 0 present: 0 avl: 0 longmode: 0 default: 0 gran: 0 
+1 [0x0 - 0xffffffff] seg_t: 0xb desc_t: 1 priv: 0 present: 1 avl: 0 longmode: 0 default: 1 gran: 1 
+2 [0x0 - 0xffffffff] seg_t: 0x3 desc_t: 1 priv: 0 present: 1 avl: 0 longmode: 0 default: 1 gran: 1 
+3 [0x0 - 0xffff] seg_t: 0xf desc_t: 1 priv: 0 present: 1 avl: 0 longmode: 0 default: 0 gran: 0 
+4 [0x0 - 0xffff] seg_t: 0x3 desc_t: 1 priv: 0 present: 1 avl: 0 longmode: 0 default: 0 gran: 0 
+================================
+dseg = 10
+----------------------
+cseg = 8
+----------------------
+sseg = 10
+----------------------
+eseg = 10
+----------------------
+fseg = 10
+================================
+
+
+valeurs à shift de 3 bits vers la droite
+
+
+================================
+dseg = 2
+----------------------
+cseg = 1
+----------------------
+sseg = 2
+----------------------
+eseg = 2
+----------------------
+fseg = 2
+================================
+
+
+Pas de ségrégation par Grub

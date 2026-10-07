@@ -55,23 +55,23 @@ void tp() {
 */
 
   uint16_t dseg = get_ds();
-  debug("dseg = %x\n", dseg);
+  debug("dseg = %x\n", dseg>>3);
   debug("----------------------\n");
 
   uint16_t cseg = get_seg_sel(cs);
-  debug("cseg = %x\n", cseg);
+  debug("cseg = %x\n", cseg>>3);
   debug("----------------------\n");
 
   uint16_t sseg = get_ss();
-  debug("sseg = %x\n", sseg);
+  debug("sseg = %x\n", sseg>>3);
   debug("----------------------\n");
 
   uint16_t eseg = get_es();
-  debug("eseg = %x\n", eseg);
+  debug("eseg = %x\n", eseg>>3);
   debug("----------------------\n");
 
   uint16_t fseg = get_fs();
-  debug("fseg = %x\n", fseg);
+  debug("fseg = %x\n", fseg>>3);
 
   debug("================================\n");
 
