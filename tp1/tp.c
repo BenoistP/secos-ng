@@ -37,5 +37,10 @@ void print_gdt_content(gdt_reg_t gdtr_ptr) {
 
 
 void tp() {
-	// TODO
+    
+  gdt_reg_t gdt;
+  get_gdtr(gdt);
+  // debug("get_gdtr %x", gdt);
+  print_gdt_content( gdt );
+
 }

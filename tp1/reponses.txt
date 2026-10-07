@@ -1,0 +1,11 @@
+1)
+kernel/include/segmem.h
+
+https://eun.github.io/Intel-Pentium-Instruction-Set-Reference/data/sgdt.html
+SGDT - Store Global Descriptor Table Register
+Code 	Mnemonic 	Description
+0F 01 /0 	SGDT m 	Store GDTR to m
+0F 01 /1 	SIDT m 	Store IDTR to m
+
+
+2)
