@@ -28,3 +28,6 @@ struct multiboot_header
 
 
 (linker) KEEP = garder même si vide
+
+Q2)
+

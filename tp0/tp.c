@@ -13,6 +13,7 @@ void tp() {
    multiboot_memory_map_t* entry = (multiboot_memory_map_t*)info->mbi->mmap_addr;
    while((uint32_t)entry < (info->mbi->mmap_addr + info->mbi->mmap_length)) {
       // TODO print "[start - end] type" for each entry
+      printf("entry %s [start %d - end %d]", entry->type, entry->addr, entry->addr+entry->size);
 
       entry++;
    }
