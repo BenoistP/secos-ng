@@ -40,7 +40,41 @@ void tp() {
     
   gdt_reg_t gdt;
   get_gdtr(gdt);
-  // debug("get_gdtr %x", gdt);
   print_gdt_content( gdt );
+
+  debug("----------------------\n");
+
+
+  /*
+    Q3 : Lire les valeurs des sélecteurs de segment à l'aide des macros prévues à cet effet dans kernel/include/segmem.h, et en déduire quels descripteurs de cette GDT sont en cours d'utilisation pour :
+
+    Le segment de code (sélecteur cs)
+    Le segment de données (sélecteur ds)
+    Le segment de pile (sélecteur ss)
+    D'autres segments (sélecteurs autres : es, fs, gs, etc.)
+*/
+
+  uint16_t dseg = get_ds();
+  debug("dseg = %x", dseg);
+
+  uint16_t cseg = get_seg_sel(cs);
+  debug(cseg);
+
+  debug("----------------------\n");
+
+  uint16_t sseg = get_ss();
+  debug("sseg = %x", sseg);
+
+  debug("----------------------\n");
+
+  uint16_t eseg = get_es();
+  debug("eseg = %x", eseg);
+
+  debug("----------------------\n");
+
+  uint16_t fseg = get_fs();
+  debug("fseg = %x", fseg);
+
+  debug("----------------------\n");
 
 }
