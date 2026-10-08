@@ -2,3 +2,4 @@
 */kernel.elf
 # Ignore object files everywhere
 *.o
+.vscode/settings.json
