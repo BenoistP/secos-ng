@@ -75,6 +75,8 @@ void tp() {
 
   debug("================================\n");
 
+  // return; // code after return will not be executed
+
   // 04
 
   /*
@@ -128,6 +130,9 @@ void tp() {
     my_gdt[2].g = 1;              //:1;      /* granularity */
     my_gdt[2].base_3 = 0x00;      //:8;      /* bits 24-31 of the base address */
 
+
+  return; // code after return will not be executed
+
   // ...
 
 
@@ -135,7 +140,7 @@ void tp() {
   gdt_reg_t my_gdtr;
   my_gdtr.addr = (long unsigned int)my_gdt;
   my_gdtr.limit = sizeof(my_gdt);
-  my_gdtr.desc = "";
+  // my_gdtr.desc = gdt_desc;
   set_gdtr(my_gdtr);
 
   // 7 ?
