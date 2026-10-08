@@ -38,7 +38,12 @@ typedef unsigned long          size_t;
 typedef unsigned long          offset_t;
 typedef unsigned long          ulong_t;
 
-typedef enum { false=0, true } bool_t;
+// Fedora 44 ?
+// Copilot
+// expected an identifier
+// bool_t appears to be the name of an enum type, but the declaration is incomplete or malformed: the surrounding comment says Fedora 44 ? and expected an identifier, indicating a parser or syntax error where an identifier should have been present.
+// typedef enum { false=0, true } bool_t;
+typedef enum { BOOL_FALSE = 0, BOOL_TRUE } bool_t;
 
 /*
 ** Offset of a field from a structure
