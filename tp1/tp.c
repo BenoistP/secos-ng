@@ -19,7 +19,7 @@ void print_gdt_content(gdt_reg_t gdtr_ptr) {
             end = start + (gdt_ptr->limit_2<<16 | gdt_ptr->limit_1);
         }
         debug("%d ", i);
-        debug("[0x%x ", start);
+        debug("[0x%x (%d) ", start, start);
         debug("- 0x%x] ", end);
         debug("seg_t: 0x%x ", gdt_ptr->type);
         debug("desc_t: %d ", gdt_ptr->s);
