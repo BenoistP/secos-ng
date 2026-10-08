@@ -1,4 +1,4 @@
 
 */kernel.elf
-s# Ignore object files everywhere
+# Ignore object files everywhere
 *.o
