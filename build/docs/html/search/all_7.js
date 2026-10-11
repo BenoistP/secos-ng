@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['g_0',['g',['../unionsegment__descriptor.html#a8efc76683bd8114052020667e2bd9a86',1,'segment_descriptor::g'],['../segmem_8h.html#ade51f49aea2360d48299fcc8fc620017',1,'g:&#160;segmem.h']]],
+  ['gdt_5fkrn_5fseg_5fsel_1',['gdt_krn_seg_sel',['../segmem_8h.html#a0330e199b591c0e1655eb9d1c65bc9c5',1,'segmem.h']]],
+  ['gdt_5fseg_5fsel_2',['gdt_seg_sel',['../segmem_8h.html#ae1e209de57a384a7948ec1d6afbdc7ac',1,'segmem.h']]],
+  ['gdt_5fusr_5fseg_5fsel_3',['gdt_usr_seg_sel',['../segmem_8h.html#aa12dc73eeff6265e28113c65dd50c02e',1,'segmem.h']]],
+  ['general_5fpurpose_5fregisters_4',['general_purpose_registers',['../uniongeneral__purpose__registers.html',1,'']]],
+  ['general_5fpurpose_5fregisters_5fcontext_5',['general_purpose_registers_context',['../uniongeneral__purpose__registers__context.html',1,'']]],
+  ['get_5fds_6',['get_ds',['../segmem_8h.html#aa48bc2a6a1c319492049c079ada7dd17',1,'segmem.h']]],
+  ['get_5febp_7',['get_ebp',['../gpr_8h.html#a3e8dd624e5450b78edf657b235ac943c',1,'gpr.h']]],
+  ['get_5feip_8',['get_eip',['../gpr_8h.html#aac8c587d356fbee254ab9071d0977eb8',1,'gpr.h']]],
+  ['get_5fes_9',['get_es',['../segmem_8h.html#a85e9c98214debb4782262b3c92fa5348',1,'segmem.h']]],
+  ['get_5fesp_10',['get_esp',['../gpr_8h.html#a16e571aa663246e669b1ae8b44e3610b',1,'gpr.h']]],
+  ['get_5fflags_11',['get_flags',['../gpr_8h.html#a4d4602d99650fd8988a222eaaf303e34',1,'gpr.h']]],
+  ['get_5ffs_12',['get_fs',['../segmem_8h.html#adf265c241d04e1622018cf3815ee843d',1,'segmem.h']]],
+  ['get_5fgdtr_13',['get_gdtr',['../segmem_8h.html#a3768c3a0761308e71b9de45aad5a3487',1,'segmem.h']]],
+  ['get_5fgs_14',['get_gs',['../segmem_8h.html#a263fe50aa136edc92b22d564a63d8afd',1,'segmem.h']]],
+  ['get_5fldtr_15',['get_ldtr',['../segmem_8h.html#aa58dca830f47ff359d306a6e6b07f0e0',1,'segmem.h']]],
+  ['get_5freg_16',['get_reg',['../gpr_8h.html#abc4cfda302248eee18e1c13fee5f03c2',1,'gpr.h']]],
+  ['get_5fseg_5fsel_17',['get_seg_sel',['../segmem_8h.html#a7c42578c4aaece777cfe98fa253f1be1',1,'segmem.h']]],
+  ['get_5fss_18',['get_ss',['../segmem_8h.html#a65f351ced154e997f53d2e624d1d3a74',1,'segmem.h']]],
+  ['get_5ftr_19',['get_tr',['../segmem_8h.html#a7c788393aaaba64be0c88ee7d6f53bca',1,'segmem.h']]],
+  ['global_5fdescriptor_5ftable_5fregister_20',['global_descriptor_table_register',['../structglobal__descriptor__table__register.html',1,'']]],
+  ['gpr_21',['gpr',['../structtask__state__segment.html#ac257546f3a375a34d6fca9fc4a7fda81',1,'task_state_segment::gpr'],['../segmem_8h.html#a07176a36644d73533a6dffe5400029df',1,'gpr:&#160;segmem.h']]],
+  ['gpr_2eh_22',['gpr.h',['../gpr_8h.html',1,'']]],
+  ['gs_23',['gs',['../structtask__state__segment.html#ac0a81528e661c91b158f030b6766fd7b',1,'task_state_segment::gs'],['../segmem_8h.html#a79e3416a33c661d66da4cb6e9ff5e22e',1,'gs:&#160;segmem.h']]]
+];

@@ -1,0 +1,25 @@
+var annotated_dup =
+[
+    [ "buffer", "structbuffer.html", "structbuffer" ],
+    [ "cpu_eflags_register", "unioncpu__eflags__register.html", "unioncpu__eflags__register" ],
+    [ "cpu_eflags_register_fields", "structcpu__eflags__register__fields.html", "structcpu__eflags__register__fields" ],
+    [ "descriptor_table_register", "structdescriptor__table__register.html", "structdescriptor__table__register" ],
+    [ "far_pointer", "structfar__pointer.html", "structfar__pointer" ],
+    [ "far_ptr16", "structfar__ptr16.html", "structfar__ptr16" ],
+    [ "far_ptr32", "structfar__ptr32.html", "structfar__ptr32" ],
+    [ "far_ptr64", "structfar__ptr64.html", "structfar__ptr64" ],
+    [ "general_purpose_registers", "uniongeneral__purpose__registers.html", "uniongeneral__purpose__registers" ],
+    [ "general_purpose_registers_context", "uniongeneral__purpose__registers__context.html", "uniongeneral__purpose__registers__context" ],
+    [ "global_descriptor_table_register", "structglobal__descriptor__table__register.html", "structglobal__descriptor__table__register" ],
+    [ "local_descriptor_table_register", "structlocal__descriptor__table__register.html", "structlocal__descriptor__table__register" ],
+    [ "location", "unionlocation.html", "unionlocation" ],
+    [ "raw_16_bits_entry", "unionraw__16__bits__entry.html", "unionraw__16__bits__entry" ],
+    [ "raw_32_bits_entry", "unionraw__32__bits__entry.html", "unionraw__32__bits__entry" ],
+    [ "raw_64_bits_entry", "unionraw__64__bits__entry.html", "unionraw__64__bits__entry" ],
+    [ "segment_descriptor", "unionsegment__descriptor.html", "unionsegment__descriptor" ],
+    [ "segment_selector", "unionsegment__selector.html", "unionsegment__selector" ],
+    [ "task_state_segment", "structtask__state__segment.html", "structtask__state__segment" ],
+    [ "task_state_segment_maps", "structtask__state__segment__maps.html", "structtask__state__segment__maps" ],
+    [ "task_state_segment_stack", "structtask__state__segment__stack.html", "structtask__state__segment__stack" ],
+    [ "task_state_segment_trap", "uniontask__state__segment__trap.html", "uniontask__state__segment__trap" ]
+];

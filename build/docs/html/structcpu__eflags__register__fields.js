@@ -1,0 +1,25 @@
+var structcpu__eflags__register__fields =
+[
+    [ "ac", "structcpu__eflags__register__fields.html#a8ccd5182b7ce7514962bdd2fb5835083", null ],
+    [ "af", "structcpu__eflags__register__fields.html#a2c630f71f0520b9e6cf0f30e9d17c5a8", null ],
+    [ "cf", "structcpu__eflags__register__fields.html#a398b118387b9bbe471f1230197eefdfc", null ],
+    [ "df", "structcpu__eflags__register__fields.html#a9e666c1990162baf9ddd25ef37780ef4", null ],
+    [ "id", "structcpu__eflags__register__fields.html#a1dbddd0c653031e9b69822894f2e4f8f", null ],
+    [ "iopl", "structcpu__eflags__register__fields.html#ad7969d6a8e6261ed9977e0b82888d344", null ],
+    [ "it", "structcpu__eflags__register__fields.html#a2a48307fd75153f0b1b35467d38deeed", null ],
+    [ "nt", "structcpu__eflags__register__fields.html#a83f9b6a0417eab4d81016c5a5ad05fce", null ],
+    [ "of", "structcpu__eflags__register__fields.html#a3281790b758aad1b954e2da169a9cfda", null ],
+    [ "pf", "structcpu__eflags__register__fields.html#a0826e47b7f137529fffc08347bb5ed72", null ],
+    [ "r1", "structcpu__eflags__register__fields.html#a2e9571c60edd40bf3db68bdd5abdbd19", null ],
+    [ "r2", "structcpu__eflags__register__fields.html#a4737975fa6b2d91c8f9b96d086b61680", null ],
+    [ "r3", "structcpu__eflags__register__fields.html#ad7fa1d2445a7a8615ccb8cde88e8b4e3", null ],
+    [ "r4", "structcpu__eflags__register__fields.html#aac929cc49058954563dd3d02969db5b8", null ],
+    [ "r5", "structcpu__eflags__register__fields.html#a649dc1e8e587d2e44f5f7d6b567100fa", null ],
+    [ "rf", "structcpu__eflags__register__fields.html#a43fe1bfa157e25e4bda9404d2ac086ee", null ],
+    [ "sf", "structcpu__eflags__register__fields.html#ae99314005bbbc357964adadf62a5276e", null ],
+    [ "tf", "structcpu__eflags__register__fields.html#a64d2450105fc29373df71a640069902d", null ],
+    [ "vip", "structcpu__eflags__register__fields.html#ab41c524280e04370292d01f55bbc9858", null ],
+    [ "vit", "structcpu__eflags__register__fields.html#ac40c0fd661d270e832006298a080ebb8", null ],
+    [ "vm", "structcpu__eflags__register__fields.html#a132eb4c04c6b1658896e8de1c70b007e", null ],
+    [ "zf", "structcpu__eflags__register__fields.html#a46a64e662569e185973a4471186f24c3", null ]
+];

@@ -1,0 +1,28 @@
+var structtask__state__segment =
+[
+    [ "back_link", "structtask__state__segment.html#afe4e9ac2b0ded411602532bd8c747b9d", null ],
+    [ "cr3", "structtask__state__segment.html#a3de57a3414f018da7b074a8c0b38ee98", null ],
+    [ "cs", "structtask__state__segment.html#a14fc9b3472e8ba0b02e1a74576d83ded", null ],
+    [ "ds", "structtask__state__segment.html#ac04302ea0ad115bbc792ae40396ce78c", null ],
+    [ "eflags", "structtask__state__segment.html#aad701edbe6cb1bc3c635f5bf52e93b2c", null ],
+    [ "eip", "structtask__state__segment.html#aa1992e03e583070d318adb554f28b8e8", null ],
+    [ "es", "structtask__state__segment.html#a6fa263ba438e73c765619549082a9c6b", null ],
+    [ "fs", "structtask__state__segment.html#a8954360b2c87c2de06c3ed56437f9a32", null ],
+    [ "gpr", "structtask__state__segment.html#ac257546f3a375a34d6fca9fc4a7fda81", null ],
+    [ "gs", "structtask__state__segment.html#ac0a81528e661c91b158f030b6766fd7b", null ],
+    [ "ldt", "structtask__state__segment.html#a37909244dfc4c3dc072b11c35c29e313", null ],
+    [ "maps", "structtask__state__segment.html#aab430fda1d71d031cc271a8809d48bc7", null ],
+    [ "r1", "structtask__state__segment.html#a77825be32c30783214a0d9d0e5b22593", null ],
+    [ "r10", "structtask__state__segment.html#a7cd1aea73caece27854c592baf08b272", null ],
+    [ "r11", "structtask__state__segment.html#a3a6f0b63279b232641fcf9dcb8894a8b", null ],
+    [ "r5", "structtask__state__segment.html#a093a796e3fce771722f0b555ec95fa85", null ],
+    [ "r6", "structtask__state__segment.html#a3d218c2af42d03c08dd4a47bd687b95e", null ],
+    [ "r7", "structtask__state__segment.html#ae471c2aaf90e61214005f02299b57e02", null ],
+    [ "r8", "structtask__state__segment.html#a867a09ce27dc851503aa2e1cd2f906d1", null ],
+    [ "r9", "structtask__state__segment.html#a7883afc09995fc3621a7136b01aeb79a", null ],
+    [ "s0", "structtask__state__segment.html#a17ec919bf322e94b1fc7290199ad6069", null ],
+    [ "s1", "structtask__state__segment.html#a4af8d46a8227b2713440759c1db75b64", null ],
+    [ "s2", "structtask__state__segment.html#a35f9ce3384a27fc4805935fda8618ee3", null ],
+    [ "ss", "structtask__state__segment.html#a007494cfabe3da5e7ae4fc17a57cb33d", null ],
+    [ "trap", "structtask__state__segment.html#a58f7cc7a35906c887c24ba9a2844297e", null ]
+];
