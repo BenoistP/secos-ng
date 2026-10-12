@@ -2759,7 +2759,7 @@ GROUP_GRAPHS           = YES
 # The default value is: NO.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-UML_LOOK               = NO
+#UML_LOOK               = NO
 
 # If the UML_LOOK tag is enabled, the fields and methods are shown inside the
 # class node. If there are many fields or methods and many nodes the graph may
@@ -2772,7 +2772,7 @@ UML_LOOK               = NO
 # Minimum value: 0, maximum value: 100, default value: 10.
 # This tag requires that the tag UML_LOOK is set to YES.
 
-UML_LIMIT_NUM_FIELDS   = 10
+#UML_LIMIT_NUM_FIELDS   = 10
 
 # If the UML_LOOK tag is enabled, field labels are shown along the edge between
 # two class nodes. If there are many fields and many nodes the graph may become
@@ -2865,7 +2865,7 @@ CALLER_GRAPH           = NO
 # The default value is: YES.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-GRAPHICAL_HIERARCHY    = YES
+#GRAPHICAL_HIERARCHY    = YES
 
 # If the DIRECTORY_GRAPH tag is set to YES then Doxygen will show the
 # dependencies a directory has on other directories in a graphical way. The
@@ -3046,11 +3046,14 @@ FILE_PATTERNS = *.h *.c
 RECURSIVE = YES
 EXTRACT_ALL = YES
 
+GRAPHICAL_HIERARCHY = YES
 HAVE_DOT = YES
 DOT_IMAGE_FORMAT = svg
 CLASS_GRAPH = YES
 COLLABORATION_GRAPH = YES
 INTERACTIVE_SVG = YES
+UML_LOOK               = YES
+UML_LIMIT_NUM_FIELDS   = 200
 
 GENERATE_HTML = YES
 GENERATE_LATEX = NO
