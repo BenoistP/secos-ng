@@ -74,7 +74,7 @@ PROJECT_ICON           =
 # entered, it will be relative to the location where Doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       =
+# OUTPUT_DIRECTORY       =
 
 # If the CREATE_SUBDIRS tag is set to YES then Doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -548,7 +548,7 @@ TIMESTAMP              = NO
 # normally produced when WARNINGS is set to YES.
 # The default value is: NO.
 
-EXTRACT_ALL            = NO
+#EXTRACT_ALL            = NO
 
 # If the EXTRACT_PRIVATE tag is set to YES, all private members of a class will
 # be included in the documentation.
@@ -1415,7 +1415,7 @@ IGNORE_PREFIX          =
 # If the GENERATE_HTML tag is set to YES, Doxygen will generate HTML output
 # The default value is: YES.
 
-GENERATE_HTML          = YES
+#GENERATE_HTML          = YES
 
 # The HTML_OUTPUT tag is used to specify where the HTML docs will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
@@ -2665,7 +2665,7 @@ HIDE_UNDOC_RELATIONS   = YES
 # set to NO
 # The default value is: NO.
 
-HAVE_DOT               = NO
+#HAVE_DOT               = NO
 
 # The DOT_NUM_THREADS specifies the number of dot invocations Doxygen is allowed
 # to run in parallel. When set to 0 Doxygen will base this on the number of
@@ -2728,7 +2728,7 @@ DOT_FONTPATH           =
 # Possible values are: NO, YES, TEXT, GRAPH and BUILTIN.
 # The default value is: YES.
 
-CLASS_GRAPH            = YES
+#CLASS_GRAPH            = YES
 
 # If the COLLABORATION_GRAPH tag is set to YES then Doxygen will generate a
 # graph for each documented class showing the direct and indirect implementation
@@ -2740,7 +2740,7 @@ CLASS_GRAPH            = YES
 # The default value is: YES.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-COLLABORATION_GRAPH    = YES
+#COLLABORATION_GRAPH    = YES
 
 # If the GROUP_GRAPHS tag is set to YES then Doxygen will generate a graph for
 # groups, showing the direct groups dependencies. Explicit enabling a group
@@ -2902,7 +2902,7 @@ DIR_GRAPH_MAX_DEPTH    = 1
 # The default value is: png.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-DOT_IMAGE_FORMAT       = png
+#DOT_IMAGE_FORMAT       = png
 
 # If DOT_IMAGE_FORMAT is set to svg or svg:svg or svg:svg:core, then this option
 # can be set to YES to enable generation of interactive SVG images that allow
@@ -2916,7 +2916,7 @@ DOT_IMAGE_FORMAT       = png
 # The default value is: NO.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-INTERACTIVE_SVG        = NO
+#INTERACTIVE_SVG        = NO
 
 # The DOT_PATH tag can be used to specify the path where the dot tool can be
 # found. If left blank, it is assumed the dot tool can be found in the path.
@@ -3038,14 +3038,20 @@ MSCFILE_DIRS           =
 
 
 
-INPUT = kernel/include/segmem.h \
-        kernel/include/types.h \
-        kernel/include/gpr.h
+#INPUT = kernel/include/segmem.h \
+#        kernel/include/types.h \
+#        kernel/include/gpr.hand
+INPUT = kernel/include kernel/core
+FILE_PATTERNS = *.h *.c
+RECURSIVE = YES
 EXTRACT_ALL = YES
+
 HAVE_DOT = YES
 DOT_IMAGE_FORMAT = svg
 CLASS_GRAPH = YES
 COLLABORATION_GRAPH = YES
+INTERACTIVE_SVG = YES
+
 GENERATE_HTML = YES
 GENERATE_LATEX = NO
 OUTPUT_DIRECTORY = build/docs
