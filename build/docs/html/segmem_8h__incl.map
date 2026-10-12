@@ -1,8 +1,0 @@
-<map id="kernel/include/segmem.h" name="kernel/include/segmem.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,172,32"/>
-<area shape="rect" id="Node000002" href="$types_8h.html" title=" " alt="" coords="56,155,121,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,30,86,80,88,140,83,139,81,80,86,35"/>
-<area shape="rect" id="Node000003" href="$gpr_8h.html" title=" " alt="" coords="95,80,146,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,30,112,66,106,66,93,35"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="117,106,102,142,98,139,113,109"/>
-</map>

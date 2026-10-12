@@ -3,3 +3,4 @@
 # Ignore object files everywhere
 *.o
 .vscode/settings.json
+build/*
