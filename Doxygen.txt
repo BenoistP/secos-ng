@@ -1,0 +1,2 @@
+Générer la documentation avec Doxygen :
+doxygen Doxyfile -V
